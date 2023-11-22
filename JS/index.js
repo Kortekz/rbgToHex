@@ -18,7 +18,7 @@ button.addEventListener('click', function() {
     let green = parseInt(greenInput.value)
     let blue = parseInt(blueInput.value)
     // Convert RGB to HEX
-    const hexCode = rgbToHex(red, green, blue)
+    let hexCode = rgbToHex(red, green, blue)
     // Display the HEX code
     hexOutput.value = hexCode
 })
